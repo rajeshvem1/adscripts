@@ -1,0 +1,5 @@
+
+- hosts: Testserver  
+  tasks:   
+  - name: Ansible command module multiple commands   
+    command: "touch hello44g44.txt"  

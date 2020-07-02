@@ -1,0 +1,9 @@
+
+- hosts: Testserver  
+  tasks:   
+  - name: Ansible command module multiple commands   
+    command: "touch {{ item }}"  
+    with_items:   
+      - h1.txt   
+      - h2.txt   
+      - h3.txt  
