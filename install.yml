@@ -1,5 +1,2 @@
----
-- hosts: Testserver
-  tasks:
   - name: Install apache2 Package
     apt: name=apache2 state=present
