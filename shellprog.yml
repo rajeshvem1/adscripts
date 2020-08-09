@@ -1,0 +1,6 @@
+- hosts: Testservers
+  tasks:
+  - name: copy the shell prog to targetmach
+    copy: src=/root/a.sh dest=/root/a.sh
+  - name: run the prog
+    shell: sh a.sh
